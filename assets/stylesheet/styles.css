@@ -1,0 +1,416 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Dosis', sans-serif; 
+    overflow-x:hidden;
+}
+#Side h1{
+    font-weight: 100;
+    margin-top:30px;
+    margin-left:20px;
+    color:
+}
+#Side h1::first-letter{
+    font-size:2em;
+}
+header{
+    display:flex;
+    width:100%;
+    height:664px;
+    animation:anim_1 5s infinite;
+    position:relative;
+    
+}
+#menu li{
+    display:inline-block;
+    list-style: none;
+    
+}
+#menu{
+    position:absolute;
+    top:40px;
+    right:50px;
+}
+
+
+
+#menu  li a{
+    padding:20px;
+    font-size:25px;
+    text-decoration:none;
+}
+@keyframes anim_1{
+    0%{
+        background-image:url("../images/1.jpg");
+        width:100%;
+        background-size:100% 100%;
+        overflow:hidden;
+
+    }
+    25%{
+        background-image:url("../images/2.jpg");
+        background-size:100% 100%;
+        overflow:hidden;
+
+
+    }
+    50%{
+        background-image:url("../images/3.jpg");
+        background-size:100% 100%;
+        overflow:hidden;
+    }
+    75%{
+        background-image:url("../images/a3.jpg");
+        background-size:100% 100%;
+        overflow:hidden;
+    }
+    100%{
+        background-image: url("../images/1.jpg");
+        background-size:100% 100%;
+        overflow:hidden;
+    }
+
+}
+#menu li a{
+    color:white;
+}
+#menu li a:hover{
+    color:lightcoral;
+}
+#Side h2{
+    font-size:40px;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:35%;
+}
+#Side h2:hover{
+    color:greenyellow;
+}
+#about h1{
+    text-align:center;
+    margin-top:35px;
+    font-family: 'Rasa', serif;
+    font-size:50px;
+    margin-bottom:20px;
+}
+#about h1:hover{
+    color:lightcoral;
+}
+#about a{
+    margin-left:96%;
+    position:fixed;
+    top:90%;
+    z-index:90;
+}
+#about a button{
+    width:35px;
+    height:34px;
+    background-color:darkgreen;
+    color:white;
+    border-color:black;
+    /* border-radius:50%; */
+
+    
+}
+#about h4{
+    text-align:center;
+}
+#section-1{
+    display:flex;
+    
+    
+}
+.img-1{
+     height:300px;
+     margin-bottom:40px;
+}
+#section-1 pre p{
+    color:gray;
+    font-style:italic;
+    font-size:20px;
+    margin-right:20px;
+
+}
+ #video {
+    width:100%;
+
+
+}   
+ #video video{
+    width:100%;
+    height:760px;
+    margin-top:100px;
+    
+    
+} 
+
+#row-1{
+    display:flex;
+    
+    
+}
+.column{
+    background-color:white;
+    margin-right:20px;
+    margin-left:20px;
+    padding-left:20px;
+
+    
+
+}
+.column button {
+    height:35px;
+    width:100px;
+    margin-top:25px;
+    margin-left:70px;
+    font-size:17px;
+    border:2px solid white;
+    padding:5px;
+
+
+    
+
+}
+.col-1 button{
+    background-color:#e16868;
+
+    
+}
+.col-2 button{
+    background-color:rgb(225,193,104);
+}
+.col-3 button{
+    background-color:rgb(126, 104, 225);
+}
+
+.column button:hover{
+    color:white;
+    background-color:rgb(86,210,91);
+    border:2px solid black;
+}
+.column h1{
+    margin-top:25px;
+    margin-left:87px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:green;
+}
+.column p{
+    margin-top:25px;
+    color:darkgray;
+}
+.column:hover{
+    background-color:lightgray;
+    border:2px solid black;
+    
+}
+#row-2{
+    display:flex;
+}
+#services h2{
+    text-align:center;
+    margin-top:30px;
+    font-size:4em;
+}
+#services h2 span {
+    color:khaki;
+}
+#team{
+    height:500px;
+    width:100%;
+    background-image: url("../images/bg.jpg");
+    margin-top:80px;
+    position:relative;
+}
+.prsn{
+    height:300px;
+    width:200px;
+    border:2px solid black;
+    
+
+    
+
+}
+.person-1{
+    background-image:url("../images/t1.jpg");
+    background-size:100% 100%;
+    position:absolute;
+    top:50px;
+    left:60px;
+}
+.person-2{
+    background-image:url("../images/t2.jpg");
+    background-size:100% 100%;
+    position:absolute;
+    top:100px;
+    left:400px;
+}
+.person-3{
+    background-image:url("../images/t3.jpg");
+    background-size:100% 100%;
+    position:absolute;
+    top:150px;
+    left:700px;
+
+}
+.person-4{
+    background-image:url("../images/t4.jpg");
+    background-size:100% 100%;
+    position:absolute;
+    top:100px;
+    left:1000px;
+
+
+}
+#team h1{
+    text-align:center;
+    padding-top:30px;
+    color:white;
+
+}
+#team h1:hover{
+    color:lightcoral;
+
+
+    
+}
+#projects{
+    margin-top:60px;
+}
+#projects .line-1{
+    display:flex;
+
+}
+#projects .line-1 div {
+    width:25%;
+    height:200px;
+    
+    
+}
+#projects .line-1 div img{
+    height:300px;
+    width:100%;
+}
+.ex-image{
+    height:300px;
+    width:330px;
+}
+.line-1{
+    margin-left:17px;
+    margin-right:10px;
+    border:2px solid black;
+}
+#projects h1{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-bottom:20px;
+
+}
+#projects h1:hover{
+    color:lightcoral;
+}
+
+#Side h1{
+        color:white;
+}
+
+#Side h1:hover{
+    color:lightcoral;
+    
+}
+@media(max-width:992px)
+{
+    #about a{
+        left:70%;
+    }
+}
+
+#Tags {
+    height:350px;
+    margin-top:60px;
+    background-color:lightgoldenrodyellow;
+    border:2px solid black;
+    position:relative;
+
+}
+#Tags a{
+    height:25px;
+    width:45px;
+}
+#Tags a button{background-color:black;
+    color:white;
+    padding:13px;
+    border:2px solid white;
+    
+}
+#Tags a{
+    display:block;
+    margin-top:37px;
+    margin-left:20px;
+    
+
+}
+#Tags a button:hover{
+    color:lightcoral;
+}
+#contact h1{
+    text-align:center;
+    text-indent: 400;
+    margin-top:35px;
+    font-size:3em;
+
+}
+#contact h1:hover{
+    color:limegreen;
+}
+#section-1 img{
+    height:400px;
+    width:400px;
+    margin-left:180px;
+}
+#lstabout{
+    position:absolute;
+    left:100px;
+    top:40px;
+
+}
+#lstabout p{
+    color:black;
+    
+
+}
+#lstabout a{
+    color:black;
+    text-decoration:none;
+}
+#team div{
+    /* overflow:hidden; */
+}
+
+.person-1:hover{
+    border:2px solid white;
+    transform:scale(2,2);
+    transition-duration: 1.5s;
+
+    
+}
+.person-2:hover{
+    border:2px solid white;
+    transform:scale(2,2);
+    transition-duration: 1.5s;
+    
+}
+.person-3:hover{
+    border:2px solid white;
+    transform:scale(2,2);
+    transition-duration: 1.5s;
+}
+.person-4:hover{
+    border:2px solid white;
+    transform:scale(2,2);
+    transition-duration: 1.5s;
+}
